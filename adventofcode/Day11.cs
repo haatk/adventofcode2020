@@ -46,7 +46,7 @@ namespace AdventOfCode
 
             var occupiedCount = GetOccupiedCount(currentGrid);
 
-            Assert.Equals(2275, occupiedCount);
+            Assert.AreEqual(2275, occupiedCount);
         }
         
         [Test]
@@ -87,7 +87,7 @@ namespace AdventOfCode
 
             var occupiedCount = GetOccupiedCount(currentGrid);
 
-            Assert.Equals(2121, occupiedCount);
+            Assert.AreEqual(2121, occupiedCount);
         }
         
         private int GetFirstVisibleOccupiedCount(Dictionary<int, Dictionary<int, Position>> grid, int rowIndex, int columnIndex)
